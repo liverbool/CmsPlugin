@@ -16,6 +16,7 @@
 
         "sylius/sylius": "1.0.0-beta.2",
 
+        "jackalope/jackalope-doctrine-dbal": "^1.2",
         "doctrine/phpcr-odm": "^2.0@dev",
         "symfony-cmf/block-bundle": "^2.0@dev",
         "symfony-cmf/content-bundle": "^2.0",
@@ -24,8 +25,6 @@
         "symfony-cmf/routing-bundle": "^2.0"
     },
     "require-dev": {
-        "jackalope/jackalope-doctrine-dbal": "^1.2",
-
         "behat/behat": "^3.2",
         "behat/mink": "^1.7",
         "behat/mink-browserkit-driver": "^1.3",
