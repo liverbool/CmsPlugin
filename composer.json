@@ -1,5 +1,5 @@
 {
-    "name": "lakion/cms-plugin",
+    "name": "dos/cms-plugin",
     "type": "sylius-plugin",
     "keywords": ["sylius", "sylius-plugin", "plugin", "cms"],
     "description": "Simple CMS for Sylius.",
@@ -51,6 +51,11 @@
     "autoload-dev": {
         "psr-4": {
             "Tests\\Lakion\\CmsPlugin\\": "tests/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
         }
     }
 }
